@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "gudguns",
+  "version": "${version}",
+  "name": "Gud Guns",
+  "description": "A mod that adds gud guns",
+  "authors": [
+    "Mysticwolf63 & Watchdowg"
+  ],
+  "contributors": [],
+  "contact": {
+    "sources": "https://github.com/MysticWolf77/Gud-Guns1"
+  },
+  "license": "MIT",
+  "icon": "assets/gudguns/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.gud.guns.GudGuns"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.9.3",
+    "fabric": "*"
+  }
+}
