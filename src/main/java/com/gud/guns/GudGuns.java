@@ -16,7 +16,7 @@ public class GudGuns implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        Registry.register(Registry.ITEM, new Identifier("gudguns", "bum"), REVOLVER_ITEM);
+        Registry.register(Registry.ITEM, new Identifier("gudguns", "revolver"), REVOLVER_ITEM);
         Registry.register(Registry.ITEM, new Identifier("gudguns", "pistol"), PISTOL_ITEM);
     }
 
